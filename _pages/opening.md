@@ -99,6 +99,10 @@ nav_order: 6
     line-height: 1.55;
   }
 
+  .join-email {
+    font-weight: 800;
+  }
+
   .teaching-section {
     margin-top: 2.4rem;
     padding-top: 2.4rem;
@@ -245,28 +249,22 @@ nav_order: 6
     <article class="join-card">
       <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
       <h3>PhD Students</h3>
-      <p>Seeking motivated students with interests in robotics, AI, machine learning, optimization, or intelligent manufacturing.</p>
+      <p><a class='join-email' href='mailto:hongyuesun@uga.edu'>Email</a> Dr. Sun with a CV, transcripts, and a short statement of research interests.</p>
     </article>
 
     <article class="join-card">
       <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
       <h3>UGA Undergraduates</h3>
-      <p>Research opportunities are available year-round in robotics, digital twins, AI, privacy-preserving computation, and manufacturing.</p>
+      <p><a class='join-email' href='mailto:hongyuesun@uga.edu'>Email</a> Dr. Sun about year-round opportunities in robotics, digital twins, AI, privacy, and manufacturing.</p>
     </article>
 
     <article class="join-card">
       <i class="fa-solid fa-flask" aria-hidden="true"></i>
       <h3>Postdocs & Visitors</h3>
-      <p>We welcome collaborations with researchers whose expertise aligns with our ongoing projects and future research directions.</p>
+      <p><a class='join-email' href='mailto:hongyuesun@uga.edu'>Email</a> Dr. Sun with a CV and research statement describing fit with current MERIT projects.</p>
     </article>
   </div>
 
-  <div class="join-cta">
-    <p>
-      <strong>Interested in joining?</strong> Send your CV, transcripts (if applicable), and a brief statement of research interests to
-      <a href="mailto:hongyue.sun@uga.edu">Dr. Hongyue Sun</a>.
-    </p>
-  </div>
 
   <section class="teaching-section">
     <div class="teaching-head">

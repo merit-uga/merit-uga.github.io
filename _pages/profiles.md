@@ -103,6 +103,7 @@ member_groups:
         focus: Responsible AI and data-driven manufacturing systems.
         project: Ethical Manufacturing
       - name: Zachary Smith
+        email: Zachary.Smith@uga.edu
         role: Undergraduate Researcher
         unit: Computer Science
         image: "Zach Smith.jpg"
@@ -112,6 +113,7 @@ member_groups:
           - label: LinkedIn
             url: https://www.linkedin.com/in/zach-smith-39b982239/
       - name: Maya Nessmith
+        email: Maya.Nessmith@uga.edu
         role: Undergraduate Researcher
         image: "Maya Nessmith.png"
         focus: Behavioral cloning and imitation learning for robotics.
@@ -120,6 +122,7 @@ member_groups:
           - label: LinkedIn
             url: http://www.linkedin.com/in/mayanessmith
       - name: Jeffrey Franklin Cooper Shane
+        email: Jeffrey.Shane@uga.edu
         role: Undergraduate Researcher
         image: "Jeffrey Franklin Cooper Shane.jpg"
         focus: Behavioral cloning and imitation learning for robotics.
