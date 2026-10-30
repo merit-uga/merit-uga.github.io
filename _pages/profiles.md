@@ -85,16 +85,46 @@ member_groups:
         links:
           - label: LinkedIn
             url: https://www.linkedin.com/in/penuel-yeboah-476905291
-      - name: John Braswell
+      - name: Vithaal Dhamodharan
         role: Undergraduate Researcher
-        unit: Mechanical Engineering
-        image: John_Braswell.jpg
-        email: john.braswell@uga.edu
-        focus: Applied manufacturing research and engineering education.
-        project: Educational frameworks for engineering training
+        unit: Computer Systems Engineering
+        image: Vithaal.jpeg
+        email: Vithaal.Dhamodharan@uga.edu
+        focus: Embedded systems and collaborative robotic disassembly.
+        project: Collaborative Robotic Disassembly
         links:
           - label: LinkedIn
-            url: https://www.linkedin.com/in/john-h-braswell/
+            url: https://www.linkedin.com/in/vithaal-dhamodharan-4187972bb/
+          - label: GitHub
+            url: https://github.com/VithaalD
+      - name: Ivan Gao
+        role: Undergraduate Researcher
+        email: Ivan.Gao@uga.edu
+        project: VR-controlled digital twin
+      - name: Jason Zhou
+        role: Undergraduate Researcher
+        email: Jason.Zhou@uga.edu
+        project: Human-Robot Collaborative Manufacturing
+      - name: Solomon Okhawe
+        role: Undergraduate Researcher
+        email: solomon.okhawe@uga.edu
+        project: Amazing Hand and digital twin
+      - name: Michael See
+        role: Undergraduate Researcher
+        email: Michael.See@uga.edu
+        project: Behavioral Cloning with Robotics
+      - name: Soham Duggal
+        role: Undergraduate Researcher
+        email: sohamduggal@uga.edu
+        project: Amazing Hand
+      - name: Teo Brown
+        role: Undergraduate Researcher
+        email: Teo.Brown@uga.edu
+        project: Robotic hand simulation and FEA
+      - name: Minh Nguyen
+        role: Undergraduate Researcher
+        email: mmn62117@uga.edu
+        project: Robotics simulation and path planning
       - name: Nehalya Sivakumar
         role: Undergraduate Researcher
         unit: Biochemical Engineering
@@ -126,7 +156,7 @@ member_groups:
         role: Undergraduate Researcher
         image: "Jeffrey Franklin Cooper Shane.jpg"
         focus: Behavioral cloning and imitation learning for robotics.
-        project: Behavioral Cloning with Robotics
+        project: Amazing Hand
         links:
           - label: LinkedIn
             url: http://www.linkedin.com/in/cooper-shane-147391328
@@ -178,6 +208,15 @@ alumni_groups:
         image: "Wilson jo.jpg"
         occupation: "Business Systems Analyst, Odoo. Inc."
         project: "System Informatics for 3D Printing of Teeth Mold"
+  - title: Summer 2026
+    people:
+      - name: John Braswell
+        image: John_Braswell.jpg
+        affiliation: Mechanical Engineering
+        project: Educational frameworks for engineering training
+        links:
+          - label: LinkedIn
+            url: https://www.linkedin.com/in/john-h-braswell/
   - title: Undergraduate and Pre-College Alumni
     people:
       - name: Zhengyao Liew
@@ -194,15 +233,6 @@ alumni_groups:
         links:
           - label: LinkedIn
             url: https://www.linkedin.com/in/adam-tayara/
-      - name: Vithaal Dhamodharan
-        image: Vithaal.jpeg
-        affiliation: Computer Systems Engineering
-        project: Collaborative Robotic Disassembly
-        links:
-          - label: LinkedIn
-            url: https://www.linkedin.com/in/vithaal-dhamodharan-4187972bb/
-          - label: GitHub
-            url: https://github.com/VithaalD
       - name: Aarush Mathad
         image: Aarush.jpeg
         affiliation: Franklin College of Arts and Sciences
