@@ -208,17 +208,16 @@ alumni_groups:
         image: "Wilson jo.jpg"
         occupation: "Business Systems Analyst, Odoo. Inc."
         project: "System Informatics for 3D Printing of Teeth Mold"
-  - title: Summer 2026
+  - title: Undergraduate and Pre-College Alumni
     people:
       - name: John Braswell
+        degree: Summer 2026
         image: John_Braswell.jpg
         affiliation: Mechanical Engineering
         project: Educational frameworks for engineering training
         links:
           - label: LinkedIn
             url: https://www.linkedin.com/in/john-h-braswell/
-  - title: Undergraduate and Pre-College Alumni
-    people:
       - name: Zhengyao Liew
         image: Zhengyao.jpg
         affiliation: School of Computing and College of Engineering
