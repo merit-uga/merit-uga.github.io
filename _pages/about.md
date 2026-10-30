@@ -4,16 +4,6 @@ title: MERIT
 permalink: /
 nav: false
 
-highlights:
-  - value: "$9.7M+"
-    label: "total research funding across federal, mission, and industry partners"
-  - value: "NSF"
-    label: "FMRG, CICI:RSSD, IUSE, CyberTraining, and Ethical Industry 4.0 awards"
-  - value: "USDA"
-    label: "$3.72M advanced manufacturing project for pecan shelling processing"
-  - value: "Honda, MxD, GE, Navy, NIOSH"
-    label: "industry, defense, and occupational-safety partnerships"
-
 recruiting:
   - title: "Prospective PhD Students"
     text: "Send a CV, transcripts, and a short statement describing the MERIT research thrusts you want to join."

@@ -94,10 +94,7 @@ layout: default
   }
 
   .home-copy {
-    display: grid;
-    grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.6fr);
-    gap: 1.8rem;
-    align-items: stretch;
+    display: block;
   }
 
   .home-copy .post {
@@ -148,49 +145,6 @@ layout: default
     color: var(--global-text-color);
     font-size: 1.02rem;
     line-height: 1.75;
-  }
-
-  .stats-deck {
-    height: 330px;
-    overflow: hidden;
-    -webkit-mask-image: linear-gradient(180deg, transparent, #000 8%, #000 92%, transparent);
-    mask-image: linear-gradient(180deg, transparent, #000 8%, #000 92%, transparent);
-  }
-
-  .stats-track {
-    display: flex;
-    flex-direction: column;
-    animation: stats-slide 18s linear infinite;
-    will-change: transform;
-  }
-
-  .stats-group {
-    display: grid;
-    flex: 0 0 auto;
-    gap: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-
-  .stat-card {
-    min-height: 76px;
-    padding: 0.9rem 1rem;
-    border-left: 4px solid var(--global-theme-color);
-    border-radius: 8px;
-    background: var(--dssi-panel);
-    box-shadow: inset 0 0 0 1px var(--dssi-line);
-  }
-
-  .stat-value {
-    color: var(--dssi-ink);
-    font-size: 1.2rem;
-    font-weight: 900;
-  }
-
-  .stat-label {
-    margin-top: 0.2rem;
-    color: var(--dssi-muted);
-    font-size: 0.88rem;
-    line-height: 1.35;
   }
 
   .section-head {
@@ -360,15 +314,6 @@ layout: default
     }
   }
 
-  @keyframes stats-slide {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-50%);
-    }
-  }
-
   @keyframes conference-slide {
     from {
       transform: translateX(0);
@@ -408,12 +353,6 @@ layout: default
     transform: translateY(0);
   }
 
-  @media (max-width: 992px) {
-    .home-copy {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
   @media (max-width: 640px) {
     .hero-section {
       min-height: 52vh;
@@ -426,10 +365,6 @@ layout: default
 
     .home-section {
       padding: 2.6rem 1rem;
-    }
-
-    .home-copy {
-      grid-template-columns: 1fr;
     }
 
     .section-head {
@@ -448,7 +383,6 @@ layout: default
 
   @media (prefers-reduced-motion: reduce) {
     .director-message::after,
-    .stats-track,
     .recruit-track,
     .conference-track {
       animation: none;
@@ -473,27 +407,6 @@ layout: default
           <div class="clearfix">{{ content }}</div>
         </article>
       </div>
-      {% if page.highlights %}
-        <div class="stats-deck" aria-label="Research funding highlights">
-          <div class="stats-track">
-            {% for copy in (1..2) %}
-              <div
-                class="stats-group"
-                {% if copy == 2 %}
-                  aria-hidden="true"
-                {% endif %}
-              >
-                {% for item in page.highlights %}
-                  <article class="stat-card">
-                    <div class="stat-value">{{ item.value }}</div>
-                    <div class="stat-label">{{ item.label }}</div>
-                  </article>
-                {% endfor %}
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-      {% endif %}
     </div>
   </section>
 
