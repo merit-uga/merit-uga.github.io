@@ -10,13 +10,10 @@ images:
 ---
 
 <div class="gallery-shell">
-  <p class="gallery-lead">Explore the facilities, events, and shared moments that shape day-to-day research in the MERIT Lab.</p>
-
   <nav class="gallery-index" aria-label="Gallery collections">
     {% for group in site.data.gallery %}
       <a class="gallery-index-link" href="#{{ group.id }}">
         <span>{{ group.title }}</span>
-        <small>{{ group.images.size }} photos</small>
       </a>
     {% endfor %}
   </nav>
@@ -29,7 +26,6 @@ images:
 <p class="gallery-group-number">Collection 0{{ forloop.index }}</p>
 <h2 id="{{ group.id }}-title">{{ group.title }}</h2>
 </div>
-<p>{{ group.description }}</p>
 </header>
 
       <div class="gallery-grid">
@@ -60,14 +56,6 @@ images:
     margin: 0 auto;
   }
 
-  .gallery-lead {
-    max-width: 760px;
-    margin: 0 0 1.75rem;
-    color: var(--global-text-color-light);
-    font-size: 1.08rem;
-    line-height: 1.7;
-  }
-
   .gallery-index {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -83,7 +71,6 @@ images:
     border-left: 4px solid var(--global-theme-color);
     border-radius: 6px;
     color: var(--global-text-color);
-    flex-direction: column;
     justify-content: center;
     text-decoration: none;
     transition:
@@ -105,37 +92,21 @@ images:
     line-height: 1.25;
   }
 
-  .gallery-index-link small {
-    margin-top: 0.3rem;
-    color: var(--global-text-color-light);
-  }
-
   .gallery-group {
     margin: 0 0 4.5rem;
     scroll-margin-top: 90px;
   }
 
   .gallery-group-header {
-    display: grid;
-    grid-template-columns: minmax(260px, 0.8fr) minmax(300px, 1.2fr);
-    gap: 2rem;
     margin-bottom: 1.35rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--global-divider-color);
-    align-items: end;
   }
 
   .gallery-group-header h2 {
     margin: 0;
     font-size: clamp(1.55rem, 2.4vw, 2.2rem);
     letter-spacing: 0;
-  }
-
-  .gallery-group-header > p {
-    max-width: 600px;
-    margin: 0 0 0.15rem;
-    color: var(--global-text-color-light);
-    line-height: 1.65;
   }
 
   .gallery-group-number {
@@ -207,10 +178,6 @@ images:
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .gallery-group-header {
-      grid-template-columns: 1fr;
-      gap: 0.65rem;
-    }
   }
 
   @media (max-width: 540px) {
