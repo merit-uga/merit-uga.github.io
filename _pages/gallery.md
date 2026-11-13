@@ -20,7 +20,7 @@ images:
 
       <div class="gallery-grid">
         {% for image in group.images %}
-          <figure class="gallery-item{% if image.featured %} gallery-item--featured{% endif %}{% if image.contain %} gallery-item--contain{% endif %}">
+          <figure class="gallery-item{% if image.featured %} gallery-item--featured{% endif %}">
             <a
               class="venobox"
               data-gall="{{ group.id }}"
@@ -101,11 +101,6 @@ images:
 
   .gallery-item--featured img {
     aspect-ratio: 2 / 1;
-  }
-
-  .gallery-item--contain img {
-    padding: 0.5rem;
-    object-fit: contain;
   }
 
   .gallery-item a:hover img,

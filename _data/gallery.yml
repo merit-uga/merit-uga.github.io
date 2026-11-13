@@ -8,15 +8,12 @@
     - src: /assets/img/gallery/AGV robot.png
       alt: An autonomous guided vehicle mobile robot in the MERIT Lab
       caption: Autonomous guided vehicle mobile robot
-      contain: true
     - src: /assets/img/gallery/Amazing Hand Gripper.png
       alt: The Amazing Hand robotic gripper prototype
       caption: Amazing Hand robotic gripper prototype
-      contain: true
     - src: /assets/img/gallery/Teleoperator.png
       alt: A teleoperation control platform in the MERIT Lab
       caption: Teleoperation control platform
-      contain: true
     - src: /assets/img/gallery/1000006531.jpg
       alt: Students working with a robot in the MERIT Lab
       caption: Students working with robotic hardware
