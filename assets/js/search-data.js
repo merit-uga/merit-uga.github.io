@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-gallery",
           title: "Gallery",
-          description: "Photos and images from the MERIT Lab",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/gallery/";
