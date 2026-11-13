@@ -4,14 +4,6 @@ title: MERIT
 permalink: /
 nav: false
 
-recruiting:
-  - title: "Prospective PhD Students"
-    text: "Send a CV, transcripts, and a short statement describing the MERIT research thrusts you want to join."
-  - title: "UGA Undergraduate Researchers"
-    text: "Year-round opportunities are available in robotics, manufacturing AI, digital twins, privacy, and safety."
-  - title: "Postdocs and Visiting Scholars"
-    text: "Send a CV and research statement describing fit with trustworthy AI and smart manufacturing."
-
 news: true
 announcements:
   scrollable: true

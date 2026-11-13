@@ -5,7 +5,7 @@ description: Privacy-preserving and safety-aware AI methods for detecting unsafe
 importance: 3
 category: research
 link: /publications/#kang2025ethicalfab
-img: /assets/img/research/Ethical Manufacturing/Minsung EthicalFab.png
+img: /assets/img/research/Ethical Manufacturing/updated_architecture_ethical_manufacturing.png
 ---
 
 ## Overview

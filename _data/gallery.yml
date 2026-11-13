@@ -1,0 +1,104 @@
+- id: lab-facilities
+  title: Lab Facilities
+  description: Robotics, additive manufacturing systems, instrumented testbeds, and the spaces where our research takes shape.
+  images:
+    - src: /assets/img/gallery/IMG_20250518_121034_668.jpg
+      alt: A robotics demonstration in the MERIT Lab
+      caption: Robotics demonstration in the lab
+      featured: true
+    - src: /assets/img/gallery/1000006531.jpg
+      alt: Students working with a robot in the MERIT Lab
+      caption: Students working with robotic hardware
+    - src: /assets/img/gallery/1000007090.jpg
+      alt: Team members testing robotic equipment in the lab
+      caption: Team members testing a robotic platform
+    - src: /assets/img/gallery/1000003861.jpg
+      alt: A robotic manipulation test platform
+      caption: Robotic manipulation test platform
+    - src: /assets/img/gallery/IMG_5528.JPG
+      alt: A collaborative robot workstation
+      caption: Collaborative robot workstation
+    - src: /assets/img/gallery/IMG_5529.JPG
+      alt: A collaborative robot and sensing setup
+      caption: Collaborative robot and sensing setup
+    - src: /assets/img/gallery/IMG_5535.JPG
+      alt: A robotic workcell with a large test surface
+      caption: Robotic workcell and test surface
+    - src: /assets/img/gallery/IMG_5559.JPG
+      alt: A vision-guided manipulation platform
+      caption: Vision-guided manipulation platform
+    - src: /assets/img/gallery/IMG_5589.JPG
+      alt: A robotic manipulation experiment in progress
+      caption: Robotic manipulation experiment
+    - src: /assets/img/gallery/lab-equipment-1.jpg
+      alt: The robotics and prototyping workbench
+      caption: Robotics and prototyping workbench
+    - src: /assets/img/gallery/1000007092.jpg
+      alt: The MERIT Lab workspace and equipment
+      caption: The MERIT Lab workspace
+    - src: /assets/img/gallery/IMG_5567.JPG
+      alt: An Amazing Hand prototype with its electronics
+      caption: Amazing Hand prototype and electronics
+    - src: /assets/img/gallery/IMG_5570.JPG
+      alt: An additive manufacturing test in progress
+      caption: Additive manufacturing test in progress
+    - src: /assets/img/gallery/IMG_5571.JPG
+      alt: Multiple 3D printers producing prototype parts
+      caption: Prototype parts in production
+    - src: /assets/img/gallery/IMG_5572.JPG
+      alt: A close-up of an additive manufacturing system
+      caption: Additive manufacturing system detail
+    - src: /assets/img/gallery/IMG_5576.JPG
+      alt: A 3D printing process in progress
+      caption: 3D printing process in progress
+    - src: /assets/img/gallery/IMG_5583.JPG
+      alt: A toolhead monitoring a printed component
+      caption: Monitoring a printed component
+    - src: /assets/img/gallery/IMG_5595.JPG
+      alt: An Amazing Hand mechanical prototype
+      caption: Amazing Hand mechanical prototype
+    - src: /assets/img/gallery/IMG_5596.JPG
+      alt: Machine-vision inspection of a printed part
+      caption: Machine-vision inspection of a printed part
+    - src: /assets/img/gallery/IMG_5599.JPG
+      alt: An instrumented additive manufacturing platform
+      caption: Instrumented additive manufacturing platform
+    - src: /assets/img/gallery/IMG_5606.JPG
+      alt: An Amazing Hand prototype during testing
+      caption: Amazing Hand prototype testing
+    - src: /assets/img/gallery/IMG_5608.JPG
+      alt: A robotic hand prototype on a test bench
+      caption: Robotic hand prototype on the test bench
+    - src: /assets/img/gallery/lab-equipment-6.jpg
+      alt: A close-up of the additive manufacturing testbed
+      caption: Additive manufacturing testbed
+    - src: /assets/img/gallery/1000003938.jpg
+      alt: The University of Georgia engineering campus
+      caption: Our home on the UGA engineering campus
+
+- id: events-gatherings
+  title: Events and Gatherings
+  description: Research presentations, conference moments, and the community that connects our work.
+  images:
+    - src: /assets/img/gallery/1000000799.jpg
+      alt: MERIT Lab members discussing a research poster
+      caption: Research poster discussion in the lab
+      featured: true
+    - src: /assets/img/gallery/1000007089.jpg
+      alt: MERIT Lab members gathered around a project poster
+      caption: The team presenting project results
+    - src: /assets/img/gallery/1000007091.jpg
+      alt: A MERIT Lab research presentation in progress
+      caption: Research presentation and group discussion
+    - src: /assets/img/gallery/IMG_20260617_154554_146.jpg
+      alt: A MERIT Lab member attending a professional conference
+      caption: Representing MERIT at a professional conference
+    - src: /assets/img/gallery/IMG_5680.JPG
+      alt: MERIT Lab members gathered for a group photo
+      caption: MERIT Lab group gathering
+    - src: /assets/img/gallery/1000007210.jpg
+      alt: MERIT Lab members sharing a meal
+      caption: A lab team gathering beyond the workspace
+    - src: /assets/img/gallery/1000007967.jpg
+      alt: MERIT Lab members at a community dinner
+      caption: MERIT Lab community dinner

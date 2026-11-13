@@ -5,141 +5,233 @@ permalink: /gallery/
 description: Photos and images from the MERIT Lab
 nav: true
 nav_order: 5
+images:
+  venobox: true
 ---
 
 <div class="gallery-shell">
-  <p class="gallery-lead">Photos from MERIT Lab activities, research spaces, team events, and community moments.</p>
-  <div class="gallery-grid">
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/1000000799.jpg' | relative_url }}" alt="1000000799" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/1000003861.jpg' | relative_url }}" alt="1000003861" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/1000003938.jpg' | relative_url }}" alt="1000003938" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/1000006531.jpg' | relative_url }}" alt="1000006531" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/1000007089.jpg' | relative_url }}" alt="1000007089" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/1000007091.jpg' | relative_url }}" alt="1000007091" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/1000007092.jpg' | relative_url }}" alt="1000007092" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/1000007210.jpg' | relative_url }}" alt="1000007210" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/1000007967.jpg' | relative_url }}" alt="1000007967" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_20250518_121034_668.jpg' | relative_url }}" alt="IMG 20250518 121034 668" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_20251020_122649_075.jpg' | relative_url }}" alt="IMG 20251020 122649 075" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_20260617_154554_146.jpg' | relative_url }}" alt="IMG 20260617 154554 146" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5528.JPG' | relative_url }}" alt="IMG 5528" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5529.JPG' | relative_url }}" alt="IMG 5529" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5535.JPG' | relative_url }}" alt="IMG 5535" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5559.JPG' | relative_url }}" alt="IMG 5559" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5567.JPG' | relative_url }}" alt="IMG 5567" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5570.JPG' | relative_url }}" alt="IMG 5570" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5571.JPG' | relative_url }}" alt="IMG 5571" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5572.JPG' | relative_url }}" alt="IMG 5572" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5576.JPG' | relative_url }}" alt="IMG 5576" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5583.JPG' | relative_url }}" alt="IMG 5583" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5589.JPG' | relative_url }}" alt="IMG 5589" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5595.JPG' | relative_url }}" alt="IMG 5595" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5596.JPG' | relative_url }}" alt="IMG 5596" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5599.JPG' | relative_url }}" alt="IMG 5599" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5606.JPG' | relative_url }}" alt="IMG 5606" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5608.JPG' | relative_url }}" alt="IMG 5608" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/IMG_5680.JPG' | relative_url }}" alt="IMG 5680" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/lab-equipment-1.jpg' | relative_url }}" alt="lab equipment 1" loading="lazy">
-    </figure>
-    <figure class="gallery-item">
-      <img src="{{ '/assets/img/gallery/lab-equipment-6.jpg' | relative_url }}" alt="lab equipment 6" loading="lazy">
-    </figure>
-  </div>
+  <p class="gallery-lead">Explore the facilities, events, and shared moments that shape day-to-day research in the MERIT Lab.</p>
+
+  <nav class="gallery-index" aria-label="Gallery collections">
+    {% for group in site.data.gallery %}
+      <a class="gallery-index-link" href="#{{ group.id }}">
+        <span>{{ group.title }}</span>
+        <small>{{ group.images.size }} photos</small>
+      </a>
+    {% endfor %}
+  </nav>
+
+{% for group in site.data.gallery %}
+
+<section class="gallery-group" id="{{ group.id }}" aria-labelledby="{{ group.id }}-title">
+<header class="gallery-group-header">
+<div>
+<p class="gallery-group-number">Collection 0{{ forloop.index }}</p>
+<h2 id="{{ group.id }}-title">{{ group.title }}</h2>
+</div>
+<p>{{ group.description }}</p>
+</header>
+
+      <div class="gallery-grid">
+        {% for image in group.images %}
+          <figure class="gallery-item{% if image.featured %} gallery-item--featured{% endif %}">
+            <a
+              class="venobox"
+              data-gall="{{ group.id }}"
+              data-title="{{ image.caption | escape }}"
+              href="{{ image.src | relative_url }}"
+              aria-label="Open image: {{ image.caption | escape }}"
+            >
+              <img src="{{ image.src | relative_url }}" alt="{{ image.alt | escape }}" loading="lazy">
+            </a>
+            <figcaption>{{ image.caption }}</figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+    </section>
+
+{% endfor %}
+
 </div>
 
 <style>
   .gallery-shell {
-    width: min(1120px, 100%);
+    width: min(1180px, 100%);
     margin: 0 auto;
   }
 
   .gallery-lead {
     max-width: 760px;
-    margin: 0 auto 2rem;
-    color: var(--global-text-color);
+    margin: 0 0 1.75rem;
+    color: var(--global-text-color-light);
     font-size: 1.08rem;
     line-height: 1.7;
-    text-align: center;
+  }
+
+  .gallery-index {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .gallery-index-link {
+    display: flex;
+    min-height: 76px;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--global-divider-color);
+    border-left: 4px solid var(--global-theme-color);
+    border-radius: 6px;
+    color: var(--global-text-color);
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    transition:
+      border-color 180ms ease,
+      transform 180ms ease,
+      box-shadow 180ms ease;
+  }
+
+  .gallery-index-link:hover,
+  .gallery-index-link:focus-visible {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .gallery-index-link span {
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .gallery-index-link small {
+    margin-top: 0.3rem;
+    color: var(--global-text-color-light);
+  }
+
+  .gallery-group {
+    margin: 0 0 4.5rem;
+    scroll-margin-top: 90px;
+  }
+
+  .gallery-group-header {
+    display: grid;
+    grid-template-columns: minmax(260px, 0.8fr) minmax(300px, 1.2fr);
+    gap: 2rem;
+    margin-bottom: 1.35rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    align-items: end;
+  }
+
+  .gallery-group-header h2 {
+    margin: 0;
+    font-size: clamp(1.55rem, 2.4vw, 2.2rem);
+    letter-spacing: 0;
+  }
+
+  .gallery-group-header > p {
+    max-width: 600px;
+    margin: 0 0 0.15rem;
+    color: var(--global-text-color-light);
+    line-height: 1.65;
+  }
+
+  .gallery-group-number {
+    margin: 0 0 0.35rem;
+    color: var(--global-theme-color);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: uppercase;
   }
 
   .gallery-grid {
-    columns: 3 280px;
-    column-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
   }
 
   .gallery-item {
-    display: block;
-    break-inside: avoid;
-    margin: 0 0 1rem;
+    display: flex;
+    min-width: 0;
+    margin: 0;
     overflow: hidden;
     border: 1px solid var(--global-divider-color);
     border-radius: 8px;
     background: var(--global-card-bg-color);
+    flex-direction: column;
+  }
+
+  .gallery-item--featured {
+    grid-column: span 2;
+  }
+
+  .gallery-item a {
+    display: block;
+    overflow: hidden;
+    background: var(--global-bg-color);
   }
 
   .gallery-item img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    aspect-ratio: 4 / 3;
     margin: 0;
+    object-fit: cover;
+    transition: transform 320ms ease;
+  }
+
+  .gallery-item--featured img {
+    aspect-ratio: 2 / 1;
+  }
+
+  .gallery-item a:hover img,
+  .gallery-item a:focus-visible img {
+    transform: scale(1.025);
+  }
+
+  .gallery-item figcaption {
+    display: flex;
+    min-height: 52px;
+    padding: 0.75rem 0.9rem;
+    color: var(--global-text-color);
+    font-size: 0.9rem;
+    line-height: 1.45;
+    align-items: center;
+  }
+
+  @media (max-width: 820px) {
+    .gallery-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .gallery-group-header {
+      grid-template-columns: 1fr;
+      gap: 0.65rem;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .gallery-index,
+    .gallery-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .gallery-item--featured {
+      grid-column: auto;
+    }
+
+    .gallery-item--featured img {
+      aspect-ratio: 4 / 3;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .gallery-index-link,
+    .gallery-item img {
+      transition: none;
+    }
   }
 </style>
