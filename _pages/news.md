@@ -207,7 +207,7 @@ nav_order: 4
       <li><span class='news-label news-label-service'>[Service]</span> Dr. Sun began service as Associate Editor of ASME JCISE. <span class='news-date-inline'>(2025/09)</span></li>
       <li><span class='news-label news-label-service'>[Service]</span> MERIT organized the 2nd Convergent Safety Symposium. <span class='news-date-inline'>(2025/09)</span></li>
       <li><span class='news-label news-label-service'>[Service]</span> Dr. Sun served as Chair of the INFORMS QSR Section. <span class='news-date-inline'>(2025/09)</span></li>
-      <li><span class='news-label'>[Seminar]</span> Dr. Sun delivered an invited seminar at Rochester Institute of Technology, "Machine Learning for Smart Manufacturing." <span class='news-date-inline'>(2025/04)</span></li>
+      <li><span class='news-label'>[Seminar]</span> Dr. Sun presented an invited seminar at Rochester Institute of Technology, titled "Machine Learning for Smart Manufacturing." <span class='news-date-inline'>(2025/04)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> Dr. Sun was featured in ASME's March 2025 Member Spotlight in <em>Mechanical Engineering</em> digital magazine. <span class='news-date-inline'>(2025/03)</span></li>
     </ul>
   </section>
@@ -222,21 +222,21 @@ nav_order: 4
       <li><span class='news-label news-label-award'>[Award]</span> Dr. Sun's paper "Functional ANOVA for Upper Extremity Fatigue Analysis during Order Picking" was recognized as a Feature Paper in <em>IISE Transactions on Occupational Ergonomics and Human Factors</em>. <span class='news-date-inline'>(2024)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> Setareh Kazemi Kheiri received the Student of the Year Award at the Applied Ergonomics Conference. <span class='news-date-inline'>(2024)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> Setareh Kazemi Kheiri received an Honorable Mention for the 2023-2024 UB ISE Graduate Student Service and Leadership Award. <span class='news-date-inline'>(2024)</span></li>
-      <li><span class='news-label'>[Seminar]</span> Dr. Sun delivered an invited IISE QCRE &amp; DAIS Division webinar, "Data Science Enabled Decision-making in Advanced Manufacturing and Personalized Safety." <span class='news-date-inline'>(2024/03)</span></li>
+      <li><span class='news-label'>[Seminar]</span> Dr. Sun presented an invited webinar for the IISE QCRE &amp; DAIS Divisions, titled "Data Science Enabled Decision-making in Advanced Manufacturing and Personalized Safety." <span class='news-date-inline'>(2024/03)</span></li>
     </ul>
   </section>
 
   <section class='news-year'>
     <h2>2023</h2>
     <ul>
-      <li><span class='news-label'>[Seminar]</span> Dr. Sun delivered an invited seminar to the University of Georgia Department of Statistics, "Data Science Enabled Decision-making in Advanced Manufacturing and Personalized Safety," in Athens, Georgia. <span class='news-date-inline'>(2023/09)</span></li>
+      <li><span class='news-label'>[Seminar]</span> Dr. Sun presented an invited seminar at the University of Georgia Department of Statistics in Athens, Georgia, titled "Data Science Enabled Decision-making in Advanced Manufacturing and Personalized Safety." <span class='news-date-inline'>(2023/09)</span></li>
       <li><span class='news-label'>[Event]</span> Dr. Sun moved to the University of Georgia and launched the MERIT Lab. <span class='news-date-inline'>(2023/08)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> Dr. Sun received the SME Outstanding Young Manufacturing Engineer Award. <span class='news-date-inline'>(2023/08)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> Dr. Sun received the University at Buffalo Exceptional Scholar - Young Investigator Award. <span class='news-date-inline'>(2023/08)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> The team was awarded the $566K NSF Ethical Industry 4.0 project. <span class='news-date-inline'>(2023/08)</span></li>
-      <li><span class='news-label'>[Seminar]</span> Dr. Sun delivered an invited seminar at the University of Michigan, "Data Science Enabled Decision-making in Advanced Manufacturing," in Ann Arbor, Michigan. <span class='news-date-inline'>(2023/03)</span></li>
-      <li><span class='news-label'>[Seminar]</span> Dr. Sun delivered an invited seminar at the University of Georgia, "Data Science Enabled Decision-making in Advanced Manufacturing, Personalized Safety, and Personalized Healthcare," in Athens, Georgia. <span class='news-date-inline'>(2023/02)</span></li>
-      <li><span class='news-label'>[Seminar]</span> Dr. Sun delivered an invited seminar at Clemson University, "Data Science Enabled Decision-making in Advanced Manufacturing, Personalized Safety, and Personalized Healthcare," in Clemson, South Carolina. <span class='news-date-inline'>(2023/01)</span></li>
+      <li><span class='news-label'>[Seminar]</span> Dr. Sun presented an invited seminar at the University of Michigan in Ann Arbor, Michigan, titled "Data Science Enabled Decision-making in Advanced Manufacturing." <span class='news-date-inline'>(2023/03)</span></li>
+      <li><span class='news-label'>[Seminar]</span> Dr. Sun presented an invited seminar at the University of Georgia in Athens, Georgia, titled "Data Science Enabled Decision-making in Advanced Manufacturing, Personalized Safety, and Personalized Healthcare." <span class='news-date-inline'>(2023/02)</span></li>
+      <li><span class='news-label'>[Seminar]</span> Dr. Sun presented an invited seminar at Clemson University in Clemson, South Carolina, titled "Data Science Enabled Decision-making in Advanced Manufacturing, Personalized Safety, and Personalized Healthcare." <span class='news-date-inline'>(2023/01)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> Dr. Sun was selected for the NSF-supported Engineering the Future of Distributed Manufacturing Visioning Event. <span class='news-date-inline'>(2023)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> Dr. Sun was named a Panel Fellow for the NSF CMMI Game Changer Academies for Advancing Research Innovation. <span class='news-date-inline'>(2023)</span></li>
     </ul>
