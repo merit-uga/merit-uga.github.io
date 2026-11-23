@@ -220,8 +220,8 @@ nav_order: 4
       <li><span class='news-label'>[Media]</span> The lab celebrated two IISE Transactions Feature Papers. <span class='news-date-inline'>(2024/10)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> Dr. Sun's paper "Active Reinforcement Learning for CVD-grown Two-dimensional Materials Classification" was recognized as a Feature Paper in <em>IISE Transactions</em>. <span class='news-date-inline'>(2024)</span></li>
       <li><span class='news-label news-label-award'>[Award]</span> Dr. Sun's paper "Functional ANOVA for Upper Extremity Fatigue Analysis during Order Picking" was recognized as a Feature Paper in <em>IISE Transactions on Occupational Ergonomics and Human Factors</em>. <span class='news-date-inline'>(2024)</span></li>
-      <li><span class='news-label news-label-award'>[Award]</span> Setareh Kazemi Kheiri received the Student of the Year Award at the Applied Ergonomics Conference. <span class='news-date-inline'>(2024)</span></li>
-      <li><span class='news-label news-label-award'>[Award]</span> Setareh Kazemi Kheiri received an Honorable Mention for the 2023-2024 UB ISE Graduate Student Service and Leadership Award. <span class='news-date-inline'>(2024)</span></li>
+      <li><span class='news-label news-label-award'>[Award]</span> PhD student Setareh Kazemi Kheiri received the Student of the Year Award at the Applied Ergonomics Conference. <span class='news-date-inline'>(2024)</span></li>
+      <li><span class='news-label news-label-award'>[Award]</span> PhD student Setareh Kazemi Kheiri received an Honorable Mention for the 2023-2024 UB ISE Graduate Student Service and Leadership Award. <span class='news-date-inline'>(2024)</span></li>
       <li><span class='news-label'>[Seminar]</span> Dr. Sun presented an invited webinar for the IISE QCRE &amp; DAIS Divisions, titled "Data Science Enabled Decision-making in Advanced Manufacturing and Personalized Safety." <span class='news-date-inline'>(2024/03)</span></li>
     </ul>
   </section>
